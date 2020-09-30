@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>hello</title>
+<meta charset= "utf-8">
+<meta name= "viewport" content= "width =device-width, intial sacale = 1">
+
+<style>
+* {
+  box-sizing : border-box ;
+
+}
+.row{
+  width:100%;
+  position: relative;
+}
+h1{
+  text-align:center;
+  font-family:Verdana;
+}
+
+#head1{
+  border: 1px solid red;
+  width:150px;
+  background-color:tomato;
+  position:relative; 
+   left:251px;
+  top:-31px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+#head2{
+  border: 1px solid red;
+  width:150px;
+  background-color:bisque;
+  position:relative;
+  left:251px;
+  top:-31px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+#head3{
+  border: 1px solid red;
+  width:150px;
+  background-color:chocolate;
+  position:relative;
+  left:251px;
+  top:-31px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+ div > div {
+  border: 1px solid green;
+  width:400px;
+   height:230px;
+  padding:10px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  font-family:Georgia, serif;
+}
+@media (min-width:1200px){
+  .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
+  float:left;
+    border:1px solid green;
+  }
+  .col-lg-1 {width: 8.33%;}
+.col-lg-2 {width: 16.66%;}
+.col-lg-3 {width: 25%;}
+.col-lg-4 {width: 33.33%;}
+.col-lg-5 {width: 41.66%;}
+.col-lg-6 {width: 50%;}
+.col-lg-7 {width: 58.33%;}
+.col-lg-8 {width: 66.66%;}
+.col-lg-9 {width: 75%;}
+.col-lg-10 {width: 83.33%;}
+.col-lg-11 {width: 91.66%;}
+.col-lg-12 {width: 100%;}
+}
+
+@media(min-width:992px) and (max-width: 1199px) {
+  .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12 {
+    float:left;
+    border:1px solid green;
+  }
+  
+  .col-md-1 {width: 8.33%;}
+.col-md-2 {width: 16.66%;}
+.col-md-3 {width: 25%;}
+.col-md-4 {width: 33.33%;}
+.col-md-5 {width: 41.66%;}
+.col-md-6 {width: 50%;}
+.col-md-7 {width: 58.33%;}
+.col-md-8 {width: 66.66%;}
+.col-md-9 {width: 75%;}
+.col-md-10 {width: 83.33%;}
+.col-md-11 {width: 91.66%;}
+.col-md-12 {width: 100%;}
+}
+
+@media(min-width:768px) and (max-width:991px ) {
+  .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12 {
+    float:left;
+    border:1px solid green;
+  }
+  
+  .col-md-1 {width: 8.33%;}
+.col-md-2 {width: 16.66%;}
+.col-md-3 {width: 25%;}
+.col-md-4 {width: 33.33%;}
+.col-md-5 {width: 41.66%;}
+.col-md-6 {width: 50%;}
+.col-md-7 {width: 58.33%;}
+.col-md-8 {width: 66.66%;}
+.col-md-9 {width: 75%;}
+.col-md-10 {width: 83.33%;}
+.col-md-11 {width: 91.66%;}
+.col-md-12 {width: 100%;}
+}
+</style>
+
+
+
+
+<body>
+<div class ="row">
+  <h1>Project 1</h1>
+  <div class="col-lg-4 col-md-6 menu" >
+    <h2 id="head1">Heading 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse </p>
+  </div>
+  <div class="col-lg-4 col-md-6 menu">
+    <h2  id="head2">Heading 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse </p>
+  </div>
+  <div class="col-lg-4 col-md-12 menu">
+    <h2  id="head3">Heading 3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse .</p>
+  </div>
+</div>
+  </body>
+</html>
